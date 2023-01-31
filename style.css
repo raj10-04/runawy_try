@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+html, body, html * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    --abl-line-height: $line-height-m;
+    --abl-desktop-breakpoint: 1024;
+    font-weight: normal;
+    background-color: #0b0a0a8d;
+}
+
+
+.body-text h1, .body-text h2 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    font-kerning: normal;
+}
+:root{
+    --yellow: #f2c21e;
+    --green : #109a73;
+    --light_green:#b6ffc0;
+    --orange:#f16e26;
+    --red:#e24227;
+}
+
+.nav_1{
+    padding: 1%;
+    margin-left: 6% ;
+    border-bottom-color: 1px solid grey;
+    border-bottom: 3px solid rgba(255,255,255,.25);
+}
+.bi{
+    position: absolute;
+    width: 40px;
+    height: 10%;
+}
+
+a{
+    color: black;
+}
+
+.slide{
+    margin: 0 0 100px 0;
+}
+
+.right_line{
+    position: absolute;
+    right: 0%;
+}
+
+.main_element{
+    position: absolute;
+    left: 0;
+    top: 48%;
+}
+
+.heading_1 {
+
+    position: absolute;
+    top: 140px;
+    left: 33%;
+}
+
+.slide-1{
+    background-color: #000;
+    z-index: 0;
+}
+
+.slide1-text{
+    position: absolute;
+    top: 10%;
+}
+
+.yellowtext{
+    position: relative;
+    right: 15%;
+    color: var(--yellow);
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+
+.slide-titletext{
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:Montserrat;
+     text-align: center;
+}
+
+.slide2-titletext{
+    color: rgba(245, 245, 245, 0.685);
+    font-size: 65px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+
+.nav {
+  background: #000;
+  height: 80px; /* set same as height & line-height below */
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+
+/* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px; /* should be the same as line-height */
+  line-height: 60px; /* should be the same as height */
+  padding-left: 50px; /* "0" sets top and bottom padding to none */
+}
+
+
+/* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+.navbar-nav li a {
+    font-weight: bold;
+    color: grey;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:active {
+    color: #f2c21e !important;
+}  
+
+.slide3 {
+    position: absolute;
+    width: 1440px;
+    margin-top: 67%;;
+  }
+
+.slide-titletext3{
+    color: white;
+    font-size: 63px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-align: left;
+    padding-left: 65%;
+}
+
+.slide-text_red{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-align: left;
+    padding-left: 55%;
+}
+
+.slide3-lasttext{
+    position: absolute;
+    top: 3305px;
+    left: 233px;
+    color: white;
+}
+
+.move_left{
+    position: absolute;
+    margin-left: 10%;
+}
+
+.btn_1{
+    background-color:#1a1323;
+    color:white;
+    border-radius: 30px;
+}
+
+/* .right_wave{
+    position: absolute;
+    right: -70%;
+    top: -47%;
+    height: 550px;
+    width: auto;
+} */
+
+.right_wave{
+    position: absolute;
+    height: 450px;
+    width: auto;
+}
+
+.left_wave{
+    position: absolute;
+    left: 0%;
+    height: 450px;
+    z-index: 1;
+}
+
+.slide-2{
+    position: absolute;
+}
+
+.redtext{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+color: #f16e26;
+font-size: 34px;
+font-weight: bold;
+font-family: Montserrat;
+text-align: left;
+}
+
+.slide2-text{
+color: white;
+font-family: montserrat;
+padding-left: 4%;
+font-size: medium;
+position: absolute;
+top: 90%;
+}
+
+.slide-2 .img-1{
+    position: absolute;
+    left: 0%;
+    height: 30px;
+}
+.slide-2 .img-2{
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    height: 65px;
+}
+.slide-2 .img-3{
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    height: 30px;
+}
+.slide-2 .img-4{
+    position: absolute;
+    top: 78%;
+    right: 0%;
+    height: 30px;
+}
+.slide2-titletext{
+    color: white;
+    font-family: montserrat;
+    padding-left: 4%;
+    font-size: 20px;
+    position: absolute;
+    top: 75%;
+    }
+    
+    .slide4{
+        position: absolute;
+        top: 3380px;
+      
+      }
+    
+    .slide4_white{
+        color: white;
+        font-size: 63px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Montserrat;
+        position: absolute;
+        top: 10%;
+        padding-left: 5%;
+    }
+    
+    .slide4_yellow{
+        color: var(--yellow);
+        font-family: Montserrat;
+        position: absolute;
+        top: 20%;
+        right: 9%;
+        font-size: 37px;
+    }
+    
+    .slide4_ptag{
+        color: white;
+        position: absolute;
+        top: 84%;
+        font-family: Montserrat;
+        font-size: 18px;
+        padding-left: 10%;
+    }
+
+.slide5{
+    
+}
